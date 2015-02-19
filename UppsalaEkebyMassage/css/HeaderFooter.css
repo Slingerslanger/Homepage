@@ -1,0 +1,278 @@
+
+		@CHARSET "ISO-8859-1";
+	/* Reset CSS
+	 * --------------------------------------- */
+	body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,
+	form,fieldset,input,textarea,p,blockquote,th,td {
+	    padding: 0;
+	    margin: 0;
+	}
+	a{
+		text-decoration:none;
+	}
+	table {
+	    border-spacing: 0;
+	}
+	fieldset,img {
+	    border: 0;
+	}
+	address,caption,cite,code,dfn,em,strong,th,var {
+	    font-weight: normal;
+	    font-style: normal;
+	}
+	strong{
+		font-weight: bold;
+	}
+	ol,ul {
+	    list-style: none;
+	    margin:0;
+	    padding:0;
+	}
+	caption,th {
+	    text-align: center;
+
+	}
+	h1,h2,h3,h4,h5,h6 {
+	    font-weight: normal;
+	    font-size: 100%;
+	    margin:0;
+	    padding:0;
+	    color:#444;
+	}
+	q:before,q:after {
+	    content:'';
+	}
+	abbr,acronym { border: 0;
+	}
+	/* Style for our header texts
+		* --------------------------------------- */
+	h1{
+		font-size: 4em;
+		font-family: Georgia, Times, 'Times New Roman', serif;
+		color: #fff;
+		margin:0;
+		padding:0;
+		text-align: center;
+	}
+
+
+	body{
+		font-family: Georgia, Times, 'Times New Roman', serif;
+		color: #ffffff;
+		color: rgba(0,0,0,0.5);
+	}
+	.wrap{
+		margin-left: auto;
+		margin-right: auto;
+		width: 960px;
+		position: relative;
+	}
+
+		.intro p{
+			color: #fff;
+		}
+
+			/* profile pic */ 
+	/*-----------------------------*/
+	.Row1List{vertical-align: middle; text-align: center;}
+	.Row1{display: inline; vertical-align: middle; text-align: center;}
+	.Row1 ul li {display: inline-block; padding-left: 20px}
+	.PVS{ display: inline-block; position: relative; background-image: url(../img/Tjuck.png); background-size:cover;z-index: 2; width: 170px; height: 150px; border: 2px solid #fff; }
+	.Tjuck{ display: inline-block; position: relative; background-image: url(../img/Pvs.png); background-size:cover; z-index: 2; width: 170px; height: 150px;border: 2px solid #fff;}
+
+
+	/* TextSyling */ 
+	/*-----------------------------*/
+		#S1HeaderText {display: block; vertical-align: middle; position:relative; color: #fff; margin: auto 0 0 0; font-size: 3em; padding-top: 3%;}
+		#S1Text{display: inline; position: relative; width: 380px; color: #fff; padding-top: 5px; text-align: justify; line-height:140%; font-size: 16px}
+		#S1TextWrap{ position: relative; text-align: justify; margin: 25px auto; width: 380px;}
+
+		#S2HeaderText {display: block; vertical-align: middle; position:relative; color: #fff; margin: auto 0 0 0; font-size: 3em; padding-top: 2%;}
+		.S2Text{display: block; vertical-align: middle; position: relative; margin: 0 auto; padding-left: 105px; padding-right: 105px;  padding-top: 20px; 
+				color: #fff; text-align: justify; line-height: 150% ; font-size: 16px; }
+
+		#S3Text1H{display: inline-block; position: relative; top: 70px; text-align:left; color:#fff; font-size: 64px;}
+		#S3Text{display: inline-block; position: relative; padding-top: 100px; color:#fff; font-size: 22px; text-align: justify;}
+		
+		#S3Text2H{ position: relative; height: 300px; color:#fff; padding-top: 20px; font-size: 14px;}
+		#S3TextP2{position: relative; color:#fff; padding: 0 auto; font-size: 12px; text-align: justify;}
+
+		.CenterBokaDivs{display:block; position: relative; text-align: center;}
+		.BokaLeft{ display: inline-block; position:relative; margin: 0 auto;  height: 300px; width: 40%; }
+		.BokaRight{display: inline-block; position:relative; margin: 0 auto;  height: 300px; width: 40%; }
+		.boka{ display: inline; position:relative; text-align:left; color: #ffffff;}
+		.boka:hover{color: #1BBC9B;}
+
+		#S4HeaderText {display: block; vertical-align: middle; position:relative; color: #fff; margin: auto 0 0 0; font-size: 4em; padding-top: 3%;}
+
+	.Transbox{
+		display: block; 
+		position:relative;		
+		margin: 5% auto auto auto;
+		height: 300px;
+		width: 80%;
+		background-image: url(../img/TSBlueGray60.png);
+		background-size:cover;
+		border-radius: 2px;              /* Good browsers */ 
+		-webkit-border-radius: 2px;
+		z-index: 1;
+		}
+	.Transbox3{
+		display: block; 
+		position:relative;		
+		margin: 3% auto auto auto;
+		height: 470px;
+		width: 80%;
+		background-image: url(../img/TSBlueGray60.png);
+		background-size:cover;
+		border-radius: 2px;              /* Good browsers */ 
+		-webkit-border-radius: 2px;
+		z-index: 1;
+		}
+		/* Boka Button */ 
+	.BokaBtn {
+		  position: relative;
+		  bottom:12%; 
+   	      left:5%;
+		  display: inline-block;
+		  width: 200px;
+		  padding: 10px 20px 10px 20px ;
+		  color: #fff;
+		  border: 2px solid #fff;
+		  text-align: center;
+		  outline: none;
+		  text-decoration: none;
+		  font-size: 22px;
+		  -webkit-transition: background-color 0.2s ease-out, border-color 0.2s ease-out;
+		  transition: background-color 0.2s ease-out,
+		              border-color 0.2s ease-out;
+		}
+		.BokaBtn:hover,
+		.BokaBtn:active {
+		  background-color: #fff; /* fallback */
+		  background-color: rgba(86, 116, 185, 0.4);
+		  border-color: #fff; /* fallback */
+		  border-color: rgba(255, 255, 255, 0.4);
+		  -webkit-transition: background-color 0.3s ease-in, border-color 0.3s ease-in;
+		  transition: background-color 0.3s ease-in,
+		              border-color 0.3s ease-in;
+		}
+		#FVKLink{position: relative; display: block; margin: 0 auto; width: 120px; height: 80px;padding-top: 15px;
+		 -webkit-transition: all 0.5s ease;
+     	-moz-transition: all 0.5s ease;
+       	-o-transition: all 0.5s ease;
+     	 -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;}
+          #FVKLink:hover{ 
+        -webkit-transform: rotate(-9deg);
+     	-moz-transform: rotate(-9deg);
+       	-o-transform: rotate(-9deg);
+      	-ms-transform: rotate(-9deg);
+          transform: rotate(-9deg);}
+		#FVKImg{position: relative;	display: block;	vertical-align: middle; border: 2px solid #fff;	margin: 0 auto;	width: 120px;height: 80px;opacity: 0.6;}
+
+
+	/* backgrounds */ 
+	/*-----------------------------*/
+	#section0,
+	#section1,
+	#section2,
+	#section3
+	{background-size: cover;}
+	#section0{
+		/*background-color: #999;*/
+		background-image: url(../img/BgP1.jpg);
+		padding: 5% 0 0 0;
+	}
+		#section1{
+		/*background-color: #999;*/
+		background-image: url(../img/BgP2.jpg);
+		padding: 5% 0 0 0;
+	}
+		#section2{
+		/*	background-color: #999;*/
+		background-image: url(../img/BgP3.jpg);
+		padding: 5% 0 0 0;
+	}
+		#section3{
+		/*	background-color: #999;*/
+		background-image: url(../img/BgP4.jpg);
+		padding: 5% 0 0 0;
+	}
+	/*-----------------------------*/
+	/* Centered texts in each section
+	* --------------------------------------- */
+	.section{/*text-align:center;*/	}
+
+	/* Fixed header and footer.
+	* --------------------------------------- */
+
+	#FB{ position: relative; padding-top: 20px; padding-left: 80%; z-index: 2;}
+
+	#header{
+		position:fixed;
+		height: 50px;
+		display:block;
+		width: 100%;
+		background-image: url(../img/TSBackG80.png);
+		/*background: #333;*/
+		z-index:9;
+		text-align:center;
+		color: #333;
+		padding: 20px 0 0 0;
+		opacity: 0.4;
+		-moz-opacity: 0.4;
+		-khtml-opacity: 0.4;
+    	filter: alpha(opacity=40); /* For IE8 and earlier */
+	}
+	#header{
+		top:0px;
+	}
+	/* Menu
+		* --------------------------------------- */
+
+	#menu li {
+		display:inline-block;
+		margin: 12px;
+		color: #000;
+		background:#fff;
+		background: rgba(255,255,255, 0.5);
+		-webkit-border-radius: 5px;
+	            border-radius: 5px;
+	}
+	#menu li.active{
+		background:#666;
+		background: rgba(0,0,0, 0.5);
+		color: #fff;
+	}
+	#menu li a{
+		text-decoration:none;
+		color: #000;
+	}
+	#menu li.active a:hover{
+		color: #fff;
+	}
+	#menu li:hover{
+		background: rgba(86, 116, 185, 0.42);
+	}
+	#menu li a,
+	#menu li.active a{
+		padding: 9px 18px;
+		display:block;
+	}
+	#menu li.active a{
+		color: #fff;
+	}
+	#menu{
+		text-align:center;
+		position:fixed;
+		top:0;
+		left:0;
+		height: 40px;
+		z-index: 70;
+		width: 100%;
+		padding: 0;
+		margin:0;
+	}	
+
+
